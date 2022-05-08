@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.order {
+    display: flex;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.half-width img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.half-width h2 {
+    font-size: 59px;
+    font-weight: bold;
+}
+
+.text-tomato {
+    color: tomato;
+}
+
+.btn {
+    background-color: orangered;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    height: 47px;
+    width: 115px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.person-img img {
+    width: 50%;
+}
+
+.text-area {
+    text-align: center;
+    padding: 28px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    width: 25%;
+    margin-left: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.menu-item img {
+    width: 100%;
+
+}
+
+.subscriber {
+    display: flex;
+    margin-left: 38px;
+    margin-right: 54px;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+
+.subscriber-org {
+    width: 30%;
+    margin: 3%;
+    text-align: center;
+}
+
+.foot {
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    padding: 50px;
+}
